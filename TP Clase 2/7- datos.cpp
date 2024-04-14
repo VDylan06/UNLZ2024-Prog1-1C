@@ -7,10 +7,10 @@ int main() {
     string nombres, apellido, direccion, localidad, provincia, pais, telefono;
     int edad = 0;
 
-    cout << "Ingrese sus nombres: ";
+    cout << "Ingrese su nombre/s: ";
     getline(cin, nombres);
 
-    cout << "Ingrese su apellido: ";
+    cout << "Ingrese su apellido/s: ";
     getline(cin, apellido);
 
     cout << "Ingrese su edad: ";
