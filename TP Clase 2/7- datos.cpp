@@ -25,7 +25,7 @@ int main() {
 
     cin.ignore();
 
-    cout << "Ingrese su dirección: ";
+    cout << "Ingrese su direccion: ";
     getline(cin, direccion);
 
     cout << "Ingrese su localidad: ";
@@ -34,10 +34,10 @@ int main() {
     cout << "Ingrese su provincia: ";
     getline(cin, provincia);
 
-    cout << "Ingrese su país: ";
+    cout << "Ingrese su pais: ";
     getline(cin, pais);
 
-    cout << "Ingrese su teléfono: ";
+    cout << "Ingrese su telefono: ";
     getline(cin, telefono);
     
     cout << endl;
@@ -46,11 +46,11 @@ int main() {
     cout << "Nombres: " << nombres << endl;
     cout << "Apellido: " << apellidos << endl;
     cout << "Edad: " << edad << endl;
-    cout << "Dirección: " << direccion << endl;
+    cout << "Direccion: " << direccion << endl;
     cout << "Localidad: " << localidad << endl;
     cout << "Provincia: " << provincia << endl;
-    cout << "País: " << pais << endl;
-    cout << "Teléfono: " << telefono << endl;
+    cout << "Pais: " << pais << endl;
+    cout << "Telefono: " << telefono << endl;
 
     return 0;
 }
