@@ -4,14 +4,21 @@
 using namespace std;
 
 int main() {
-    string nombres, apellido, direccion, localidad, provincia, pais, telefono;
+	string nombres = "";
+	string apellidos = "";
+	string direccion = "";
+	string localidad = "";
+	string provincia = "";
+	string pais = "";
+	string telefono = "";
+
     int edad = 0;
 
     cout << "Ingrese su nombre/s: ";
     getline(cin, nombres);
 
     cout << "Ingrese su apellido/s: ";
-    getline(cin, apellido);
+    getline(cin, apellidos);
 
     cout << "Ingrese su edad: ";
     cin >> edad;
@@ -37,7 +44,7 @@ int main() {
 
     cout << "--- Datos personales ---" << endl;
     cout << "Nombres: " << nombres << endl;
-    cout << "Apellido: " << apellido << endl;
+    cout << "Apellido: " << apellidos << endl;
     cout << "Edad: " << edad << endl;
     cout << "Dirección: " << direccion << endl;
     cout << "Localidad: " << localidad << endl;
